@@ -1,6 +1,6 @@
 #Number guessing game
 import random
-#test
+
 randomNumber = random.randint(1,9)
 userGuess = 0
 count = 0
