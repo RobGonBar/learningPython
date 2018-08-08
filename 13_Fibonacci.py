@@ -1,13 +1,11 @@
 #Asks the user how many Fibonacci numbers to create and then generates them
-
-
 def askUser():
     userNumber = int(input("How many Fibonacci numbers do you want to generate? "))
     return userNumber
 
 def createSequence(number):
     sequence = []
-    x = range(2,number)
+
     i = 1
 
     if number == 1:
