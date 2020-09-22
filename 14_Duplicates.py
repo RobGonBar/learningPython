@@ -18,7 +18,7 @@ def noDuplicates(list):
     for x in list:
         newSet.add(x)
     return newSet
-    
+
 print(list)
 print(removeDuplicates(list))
 print(noDuplicates(list))
